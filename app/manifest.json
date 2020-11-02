@@ -1,0 +1,23 @@
+{
+  "name": "puerta",
+  "description": "puerta",
+  "version": "1.0",
+
+ "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+
+  "background": {
+    "scripts": [ "javascripts/background.bundle.js" ]
+  },
+
+  "permissions": [
+    "bookmarks",
+    "topSites",
+    "tabs",
+    "storage",
+    "<all_urls>"
+  ],
+
+  "manifest_version": 2
+}
